@@ -50,7 +50,9 @@ body,html, #root{
 .CityCard:hover {
   transform: scale(1.05);
 }
-
+.form{
+  background-color: #ffffff63 !important
+}
 
 /*  */
 .App {

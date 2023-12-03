@@ -41,16 +41,17 @@ const SearchBox = () => {
 
   return (
     <Container fluid>
-      <Row className="justify-content-center mt-5">
+      <Row className="justify-content-center mt-1">
         {/* <h1 className="text-center">Che tempo farà?</h1> */}
 
-        <Col md={6} className=" d-flex justify-content-center">
+        <Col md={6} className=" d-flex justify-content-center ">
           <Form onSubmit={handleSubmit}>
             <FormControl
               type="text"
               placeholder="La tua città..."
               value={city}
               onChange={handleInputChange}
+              className="form"
             />
           </Form>
           <i
