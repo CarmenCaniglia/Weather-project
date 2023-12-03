@@ -7,7 +7,7 @@ body,html, #root{
   background: radial-gradient(circle, #ADD8E6, #00458b);
   font-family: 'Inconsolata', sans-serif;
   background-image:url(../src/Components/assets/sfondo.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 .logo{
